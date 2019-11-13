@@ -46,8 +46,18 @@
 #
 # subtotal = (penne * 100 + arrabiata * 100 + garlic*100 + sauce*100 + seasoning*100 + artisan*100 + meatball*100 )/100
 # print(subtotal)
-print("**********\n ******\n *****\n ****\n **\n **\n *")
+# print("**********\n ******\n *****\n ****\n **\n **\n *")
+#
+# name =input("enter name= ")
+# print("your name is " + name + ".")
+# print(name)
 
-name =input("enter name= ")
-print("your name is " + name + ".")
-print(name)
+def function_name():
+    print(2+2)
+
+    function_name()
+def  function_car(honda):
+
+    print("honda" + 2019)
+
+    function_car()
